@@ -1,8 +1,31 @@
 
+html{
+  height: 100%;
+}
+
 #bg-video {
  position: fixed;
  right: 0;
  bottom: 0;
  min-width: 100%;
  min-height: 100%;
+}
+
+#body-dev{
+  background-image: url("../img/cover-dev.jpeg");
+  background-color: #cccccc; /* Used if the image is unavailable */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+  height: 100%;
+}
+
+#body-qa{
+  background-image: url("../img/cover-qa.jpeg");
+  background-color: #cccccc; /* Used if the image is unavailable */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+  height: 100%;
+
 }
